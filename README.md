@@ -28,7 +28,7 @@ Image 2:
 
 2. Image 3 depicts the descriptive statistics of the PSI variable for each location independently. The data shows that the specifications of less than 100 pounds per 
 square inch of variance are met in Lot 1 and Lot 2. This specification is not met in Lot 3. Lot 3 deviates so much from the specification that it warps the overall
-results from being almost no variance to approaching the specifiction limit.
+results from being almost no variance to approaching the specification limit.
 
 Image 3:
 ![lot_summary](https://user-images.githubusercontent.com/114311015/217972372-5a94a29b-cec4-4735-b951-ec7e682adf3e.png)
@@ -36,7 +36,7 @@ Image 3:
 
 ## T-Tests on Suspension Coils
 
-As shown in image 4, using a significance standard of a p value of less to or equalt to .05, overall the mean PSI was not statistically significantly different than 1500.
+As shown in image 4, using a significance standard of a p value of less to or equal to .05, overall the mean PSI was not statistically significantly different than 1500.
 This can also be seen to be true of Lot 1 (see Image 5) and Lot 2 (see Image 6). The mean PSI for Lot 3 (see Image 7) is statistically significantly lower than 1500 as noted by the p value
 of less than .05.
 
@@ -54,3 +54,14 @@ Image 7:
 
 
 ## Study Design: MechaCar vs Competition
+
+1. Proposed Study: It would be of interest to customers to test the safety rating of the vehicle compared to a competitors. The test could be conducted using
+multiple sets of two-way t-tests. The number of accidents, injuries, and deaths could be calculated for the owners of each car. Means could be compared. In each
+case there would be a null hypothesis and an alternate hypothesis. For example when comparing accidents by car the following could be used;
+
+Null Hypothesis: The number of accidents is not significantly different between MechaCar drivers and Competitor X drivers.
+
+Alternate Hypothesis: The number of accidents is significantly different between MechaCar drivers and Competitor X divers.
+
+In this case number of accidents would be calculated by number of accidents per mile driven for each car. Other tests could use the same approach with number of
+injuries and deaths on a per mile driven basis.
